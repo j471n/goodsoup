@@ -4,7 +4,7 @@ const CLIENT_ID = "e54e13f5953d4e5eb32836c75357cebb"; // its j471n's client ID
 const REDIRECT_URI =
   process.env.NODE_ENV === "development"
     ? "http://localhost:3000/"
-    : window.location.origin;
+    : "https://j471n.github.io/goodsoup";
 const AUTH_ENDPOINT = "http://accounts.spotify.com/authorize";
 const RESPONSE_TYPE = "token";
 
